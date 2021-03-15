@@ -140,7 +140,7 @@ function updateTitle(chosenXAxis, chosenYAxis) {
 };
 
 // Read in the data
-d3.csv("../assets/data/data.csv").then(function(data) {
+d3.csv("../D3_data_journalism/assets/data/data.csv").then(function(data) {
     data.forEach(function(data) {
         data.poverty = +data.poverty;
         data.healthcare = +data.healthcare;
