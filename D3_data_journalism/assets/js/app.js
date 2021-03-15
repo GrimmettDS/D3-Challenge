@@ -303,7 +303,7 @@ d3.csv("../D3_data_journalism/assets/data/data.csv").then(function(data) {
             updateTitle(chosenXAxis, chosenYAxis);
             circleTexts = updateText(circleTexts, xLinearScale, chosenXAxis, yLinearScale, chosenYAxis);
 
-            statOutput(data, chosenXAxis, chosenYAxis);
+            // statOutput(data, chosenXAxis, chosenYAxis);
 
             if (chosenXAxis === "poverty") {
                 povertyLabel
@@ -358,7 +358,7 @@ d3.csv("../D3_data_journalism/assets/data/data.csv").then(function(data) {
             updateTitle(chosenXAxis, chosenYAxis);
             circleTexts = updateText(circleTexts, xLinearScale, chosenXAxis, yLinearScale, chosenYAxis);
 
-            statOutput(data, chosenXAxis, chosenYAxis)
+            // statOutput(data, chosenXAxis, chosenYAxis)
 
             if (chosenYAxis === "healthcare") {
                 healthcareLabel
